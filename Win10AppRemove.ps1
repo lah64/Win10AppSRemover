@@ -78,126 +78,139 @@ PAUSE
 
 #To uninstall 3D Builder:
 get-appxpackage -allusers *3dbuilder* | remove-appxpackage
+write-host "Fucking *3dbuilder* has been removed..."
 
 #To uninstall Alarms & Clock:
 get-appxpackage -allusers *alarms* | remove-appxpackage
+write-host "Fucking *alarms* has been removed..."
 
 #To uninstall App Connector:
 #get-appxpackage -allusers *appconnector* | remove-appxpackage
+write-host "Fucking *appconnector* has been removed..."
 
 #To uninstall App Installer:
 #get-appxpackage -allusers *appinstaller* | remove-appxpackage
-
-#To uninstall Calendar and Mail apps together:
-get-appxpackage -allusers *communicationsapps* | remove-appxpackage
-
-#To uninstall Calculator:
-#get-appxpackage -allusers *calculator* | remove-appxpackage
+write-host "Fucking *appinstaller* has been removed..."
 
 #To uninstall Camera:
-#get-appxpackage -allusers *camera* | remove-appxpackage
+get-appxpackage -allusers *camera* | remove-appxpackage
+write-host "Fucking *camera* has been removed..."
 
 #To uninstall Feedback Hub:
 get-appxpackage -allusers *feedback* | remove-appxpackage
+write-host "Fucking *feedback* has been removed..."
 
 #To uninstall Get Office:
 get-appxpackage -allusers *officehub* | remove-appxpackage
+write-host "Fucking *officehub* has been removed..."
 
 #To uninstall Get Started or Tips:
 get-appxpackage -allusers *getstarted* | remove-appxpackage
+write-host "Fucking *getstarted* has been removed..."
 
 #To uninstall Get Skype:
 get-appxpackage -allusers *skypeapp* | remove-appxpackage
+write-host "Fucking *skypeapp* has been removed..."
 
 #To uninstall Groove Music:
 get-appxpackage -allusers *zunemusic* | remove-appxpackage
+write-host "Fucking *zunemusic* has been removed..."
 
 #To uninstall Groove Music and Movies & TV apps together:
 get-appxpackage -allusers *zune* | remove-appxpackage
+write-host "Fucking *zune* has been removed..."
 
 #To uninstall Maps:
 get-appxpackage -allusers *maps* | remove-appxpackage
+write-host "Fucking *maps* has been removed..."
 
 #To uninstall Messaging and Skype Video apps together:
 get-appxpackage -allusers *messaging* | remove-appxpackage
+write-host "Fucking *messaging* has been removed..."
 
 #To uninstall Microsoft Solitaire Collection:
 get-appxpackage -allusers *solitaire* | remove-appxpackage
+write-host "Fucking *solitaire* has been removed..."
 
 #To uninstall Microsoft Wallet:
 get-appxpackage -allusers *wallet* | remove-appxpackage
-
-#To uninstall Microsoft Wi-Fi:
-get-appxpackage -allusers *connectivitystore* | remove-appxpackage
+write-host "Fucking *wallet* has been removed..."
 
 #To uninstall Money:
 get-appxpackage -allusers *bingfinance* | remove-appxpackage
+write-host "Fucking *bingfinance* has been removed.."
 
 #To uninstall Money, News, Sports and Weather apps together (I like the weather app, you can remove news, sports, money and reinstall the weather app):
 #get-appxpackage -allusers *bing* | remove-appxpackage
+write-host "Fucking *bing* has been removed.."
 
 #To uninstall Movies & TV:
 get-appxpackage -allusers *zunevideo* | remove-appxpackage
+write-host "Fucking *zunevideo* has been removed.."
 
 #To uninstall News:
 get-appxpackage -allusers *bingnews* | remove-appxpackage
+write-host "Fucking *bingnews* has been removed.."
 
 #To uninstall OneNote:
 get-appxpackage -allusers *onenote* | remove-appxpackage
+write-host "Fucking *onenote* has been removed.."
 
 #To uninstall Paid Wi-Fi & Cellular:
 get-appxpackage -allusers  *oneconnect* | remove-appxpackage
-
-#To uninstall Paint 3D:
-get-appxpackage -allusers *mspaint* | remove-appxpackage
+write-host "Fucking *onenote* has been removed.."
 
 #To uninstall People:
 get-appxpackage -allusers  *people* | remove-appxpackage
+write-host "Fucking *people* has been removed.."
 
 #To uninstall Phone:
 get-appxpackage -allusers *commsphone* | remove-appxpackage
+write-host "Fucking *commsphone* has been removed.."
 
 #To uninstall Phone Companion:
 get-appxpackage -allusers *windowsphone* | remove-appxpackage
+write-host "Fucking *windowsphone* has been removed.."
 
 #To uninstall Phone and Phone Companion apps together:
 get-appxpackage -allusers *phone* | remove-appxpackage
+write-host "Fucking *phone* has been removed.."
 
 #To uninstall Photos:
 get-appxpackage -allusers *photos* | remove-appxpackage
+write-host "Fucking *photos* has been removed.."
 
 #To uninstall Sports:
-get-appxpackage -allusers *bingsports* | remove-appxpackage
+get-appxpackage -allusers *photos* | remove-appxpackage
+write-host "Fucking *phone* has been removed.."
 
 #To uninstall Sticky Notes:
 get-appxpackage -allusers *sticky* | remove-appxpackage
+write-host "Fucking *sticky* has been removed.."
 
 #To uninstall Sway:
 get-appxpackage -allusers *sway* | remove-appxpackage
+write-host "Fucking *sway* has been removed.."
 
 #To uninstall View 3D:
 get-appxpackage -allusers *3dViewer* | remove-appxpackage
+write-host "Fucking *3dViewer* has been removed.."
 
 #To uninstall Voice Recorder:
-#get-appxpackage -allusers *soundrecorder* | remove-appxpackage
-
-#To uninstall Weather: (I like it :-) )
-#get-appxpackage -allusers *bingweather* | remove-appxpackage
+get-appxpackage -allusers *soundrecorder* | remove-appxpackage
+write-host "Fucking *soundrecorder* has been removed.."
 
 #To uninstall Get-Help App (kind of useless)
 get-appxpackage -allusers *GetHelp* | remove-appxpackage
+write-host "Fucking *GetHelp* has been removed.."
 
 #To uninstall Windows Holographic:
 get-appxpackage -allusers *holographic* | remove-appxpackage
-
-#To Windows Camera
-get-appxpackage -allusers *WindowsCamera* | remove-appxpackage
-
-#To uninstall Windows Store: (DANGER - Don't remove, maybe you want to install apps? and it's needed for updates)
-#########get-appxpackage -allusers *windowsstore* | remove-appxpackage
+write-host "Fucking *holographic* has been removed.."
 
 #To uninstall Xbox Apps (Don't deinstall if you would like to play XBOX Live apps like Forza 7):
 get-appxpackage -allusers *xbox* | remove-appxpackage
+write-host "Fucking *xbox* has been removed.."
 clear-host
 
 ## The end ;)
