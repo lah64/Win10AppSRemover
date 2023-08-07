@@ -141,7 +141,7 @@ get-appxpackage -allusers *bingfinance* | remove-appxpackage
 write-host "Fucking *bingfinance* has been removed.."
 
 #To uninstall Money, News, Sports and Weather apps together (I like the weather app, you can remove news, sports, money and reinstall the weather app):
-#get-appxpackage -allusers *bing* | remove-appxpackage
+get-appxpackage -allusers *bing* | remove-appxpackage
 write-host "Fucking *bing* has been removed.."
 
 #To uninstall Movies & TV:
